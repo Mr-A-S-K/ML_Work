@@ -63,7 +63,7 @@ python train.py
 python test.py
 ```
 
-### **5. (Optional) Run in Docker**  
+### **5. If to Run in Docker**  
 ```bash
 docker build -t multitask_model .
 docker run multitask_model
@@ -71,7 +71,7 @@ docker run multitask_model
 
 ---
 
-## **Training Considerations (Detailed Explanation)**  
+## **Training Considerations**  
 
 ### **1. Freezing the Entire Network**  
 - The transformer remains unchanged, and only the final layers are trained.  
@@ -109,4 +109,4 @@ docker run multitask_model
 ---
 
 ## **Conclusion**  
-This project demonstrates how multi-task learning and transfer learning can enhance text classification. The fine-tuning strategy balances efficiency and accuracy, making it practical for real-world applications. 🚀  
+This project demonstrates how multi-task learning and transfer learning can enhance text classification. The fine-tuning strategy balances efficiency and accuracy, making it practical for real-world applications.

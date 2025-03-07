@@ -45,3 +45,4 @@ for epoch in range(num_epochs):
         print(f"Epoch {epoch + 1}/{num_epochs}, Classification Loss: {class_loss.item():.4f}, Sentiment Loss: {sentiment_loss.item():.4f}")
 
 print("Training Complete!")
+torch.save(model.state_dict(), "model.pth")
